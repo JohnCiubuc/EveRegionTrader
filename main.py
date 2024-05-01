@@ -32,7 +32,7 @@ class EveTrader(QWidget):
         tab1.plainTextEdit = QPlainTextEdit()
         tab1.layout.addWidget(tab1.plainTextEdit)
         tab1.plainButton = QPushButton()
-        tab1.plainButton.text = "Grab Latest Prices"
+        tab1.plainButton.setText("Grab Latest Prices")
         tab1.layout.addWidget(tab1.plainButton)
         tab1.setLayout(tab1.layout)
         self.tabs.addTab(tab1, 'Paste your multibuy window here')
@@ -43,6 +43,7 @@ class EveTrader(QWidget):
         tab2 = QWidget()
         tab2.layout = QVBoxLayout()
         tab2.table = QTableWidget()
+        tab2.table.setAlternatingRowColors(True)
         tab2.table.setColumnCount(5)
         tab2.table.setHorizontalHeaderLabels(['Item', 'Region', 'Sell Order (Lowest)', 'Sell Order (Average)', 'Buy Order (Highest)'])
         tab2.layout.addWidget(tab2.table)
