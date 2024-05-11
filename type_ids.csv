@@ -40246,7 +40246,7 @@ typeID;typeName;published
 64627;"Asteroid Set 4 Small 5";0
 64628;"Asteroid Set 4 Small 6";0
 64629;"Asteroid Set 4 Small 7";0
-64630;"Asteroid Set 4 Small 8";0
+64630;"Placeholder DO NOT USE";0
 64631;"Asteroid Set 4 Small 9";0
 64632;"Asteroid Set 4 Small 10";0
 64633;"Asteroid Set 4 Medium 1";0
@@ -44391,6 +44391,49 @@ typeID;typeName;published
 79984;"Angel Enforcer Khizriel";0
 79985;"Guristas Enforcer Alligator";0
 79986;"Upwell Security Thunderchild";0
+79994;"CD Combat 1 Loot";0
+79996;"Sinister Exotic Filament";1
+79997;"Ruined Electrical Filament";1
+79998;"Vicious Electrical Filament";1
+79999;"Devastated Electrical Filament";1
+80000;"Disastrous Gamma Filament";1
+80001;"Annihilated Electrical Filament";1
+80002;"Calamitous Firestorm Filament";1
+80003;"Sinister Exotic Filament Blueprint";1
+80004;"Ruined Electrical Filament Blueprint";1
+80005;"Vicious Electrical Filament Blueprint";1
+80006;"Devastated Electrical Filament Blueprint";1
+80007;"Disastrous Gamma Filament Blueprint";1
+80008;"Annihilated Electrical Filament Blueprint";1
+80009;"Calamitous Firestorm Filament Blueprint";1
+80010;"F-11 Entangled GQD";1
+80011;"B-53 Entangled GQD";1
+80012;"S-107 Entangled GQD";1
+80013;"F-16 Entangled GQD";1
+80014;"B-66 Entangled GQD";1
+80015;"S-133 Entangled GQD";1
+80016;"F-24 Entangled GQD";1
+80017;"B-79 Entangled GQD";1
+80018;"S-158 Entangled GQD";1
+80019;"F-33 Entangled GQD";1
+80021;"CD Component Y-107 ( copy )";0
+80022;"B-97 Entangled GQD";1
+80023;"S-172 Entangled GQD";1
+80024;"F-41 Entangled GQD";1
+80025;"Isolated Dimensional Thread";1
+80026;"CD Data Collection";0
+80029;"Damavik Battle-Scarred Wreck";0
+80030;"Small Cache Wreck";0
+80031;"Medium Cache Wreck";0
+80033;"Tower Vault Wreck";0
+80034;"Vedmak Battle-Scarred Wreck";0
+80035;"Drekavac Battle-Scarred Wreck";0
+80036;"Leshak Battle-Scarred Wreck";0
+80038;"Zirnitra Battle-Scarred Wreck";0
+80039;"Ruptured Shackling Leshak";0
+80041;"Battered Shackling Leshak";0
+80043;"Impaired Shackling Leshak";0
+80044;"Dievas Shackling Leshak";0
 80054;"Insurgency Ice Heist - Upwell Spawner 2 (DO NOT TRANSLATE)";0
 80055;" Insurgency Ice Heist - Angel Spawner 2 (DO NOT TRANSLATE)";0
 80057;" Insurgency Ice Heist - Guristas Spawner 2 (DO NOT TRANSLATE)";0
@@ -44418,7 +44461,19 @@ typeID;typeName;published
 80133;"Guristas Platform 01a";0
 80134;"Guristas Platform 02a";0
 80234;"Invisible Cloud - ICE Heist triggers (DO NOT TRANSLATE)";0
+80235;"CD Boss Spawner 1";0
+80236;"CD Boss Spawner 2";0
+80237;"CD Boss Spawner 3";0
+80238;"CD Boss Spawner 4";0
 80240;"Yoiul Festival Celebration Crate";1
+80246;"CD Boss Wreck";0
+80247;"CD Boss Wreck (lootable)";0
+80248;"Igniting Swarmer";0
+80249;"CD Minion Spawner 1";0
+80250;"CD Minion Spawner 2";0
+80251;"CD Minion Spawner 3";0
+80252;"CD Minion Spawner 4";0
+80253;"CD Minion Spawner Alpha";0
 80272;"Angel Icejacker Dramiel";0
 80273;"Angel Icejacker Dramiel";0
 80275;"Guristas Icejacker Worm";0
@@ -44457,12 +44512,50 @@ typeID;typeName;published
 80310;"ORE Frostguard Barghest";0
 80311;"ORE Frostguard Barghest";0
 80312;"ORE Frostguard Barghest";0
+80342;"Basic Capsuleer Day XXI Cerebral Accelerator";1
+80343;"Extended Capsuleer Day XXI Cerebral Accelerator";1
+80344;"Potent Capsuleer Day XXI Cerebral Accelerator";1
+80352;"Basic Capsuleer Day XXI Glamourex Booster";1
+80353;"Extended Capsuleer Day XXI Glamourex Booster";1
+80354;"Potent Capsuleer Day XXI Glamourex Booster";1
+80357;"SoCT Relic Range Booster I";1
+80358;"SoCT Relic Range Booster II";1
+80359;"SoCT Relic Range Booster III";1
+80360;"SoCT Relic Coherence Booster I";1
+80361;"SoCT Relic Coherence Booster II";1
+80362;"SoCT Relic Coherence Booster III";1
+80363;"SoCT Relic Strength Booster I";1
+80364;"SoCT Relic Strength Booster II";1
+80365;"SoCT Relic Strength Booster III";1
+80366;"SoCT Repairer Booster I";1
+80367;"SoCT Repairer Booster II";1
+80368;"SoCT Repairer Booster III";1
+80369;"SoCT Turret Booster I";1
+80370;"SoCT Turret Booster II";1
+80371;"SoCT Turret Booster III";1
+80379;"SoCT Capacitor Booster I";1
+80380;"SoCT Capacitor Booster II";1
+80381;"SoCT Capacitor Booster III";1
+80425;"EDENCOM Surveyor Debris";0
+80438;"CD Minion Loot Goblin";0
+80439;"CD Minion Spawner (combat 1 loot)";0
+80440;"Recovered CD Boss Salvage";1
 80441;"Arbitrator Crown and Swords SKIN";1
 80448;"Angel Outer Zarzakh Machariel";0
 80449;"Angel Outer Zarzakh Dramiel";0
 80450;"Angel Outer Zarzakh Cynabal";0
 80451;"Guristas Outer Zarzakh Gila";0
 80452;"Guristas Outer Zarzakh Rattlesnake";0
+80523;"Capsuleer Day XXI Filament Crate";1
+80757;"SoCT Agility Booster I";1
+80760;"SoCT Agility Booster II";1
+80763;"SoCT Agility Booster III";1
+80765;"SoCT Armor Booster I";1
+80767;"SoCT Armor Booster II";1
+80768;"SoCT Armor Booster III";1
+80769;"SoCT Scan Booster I";1
+80770;"SoCT Scan Booster II";1
+80773;"SoCT Scan Booster III";1
 80806;"Angel Zarzakh Lachesis";0
 80807;"Angel Zarzakh Machariel";0
 80808;"Guristas Zarzakh Lachesis";0
@@ -44482,15 +44575,27 @@ typeID;typeName;published
 80862;"Asteroid Set 4 Xlarge 8";0
 80863;"Asteroid Set 4 Xlarge 9";0
 80864;"Asteroid Set 4 Xlarge 10";0
+80873;"Triglavian Encrypted Conduit Data";1
+80876;"Small Tachyon Cloud";0
+80887;"CD Accelerant Dungeon Effect";0
+80888;"CD Decelerant Dungeon Effect";0
+80899;"Anti-Tachyon Cloud";0
 80907;"Dragoon Arkombine Arisen SKIN";1
 80908;"Executioner Arkombine Arisen SKIN";1
 80909;"Astero Arkombine Arisen SKIN";1
+80934;"Damaged Werpost";0
+80937;"Capsuleer Day XXI Fireworks Package";1
 80938;"Hecate Empyrean Dragons SKIN";1
 80939;"Jaguar Empyrean Dragons SKIN";1
 80940;"Dominix Navy Issue Empyrean Dragons SKIN";1
 80941;"Huginn Empyrean Dragons SKIN";1
 80942;"Stiletto Empyrean Dragons SKIN";1
 80943;"Loki Empyrean Dragons SKIN";1
+80944;"Origin Conduit";0
+80945;"Abyssal Trace";0
+80990;"CD Large Dungeon Slow Cloud";0
+80992;"Capsuleer Day XXI Glamourex Crate";1
+80994;"CD Boss Guided Neutralizer Bomb";0
 81010;"Garmur Arkombine Arisen SKIN";1
 81011;"Orthrus Arkombine Arisen SKIN";1
 81012;"Barghest Arkombine Arisen SKIN";1
@@ -44508,8 +44613,13 @@ typeID;typeName;published
 81024;"Corax Arkombine Arisen SKIN";1
 81025;"Osprey Navy Issue Arkombine Arisen SKIN";1
 81026;"Ferox Navy Issue Arkombine Arisen SKIN";1
+81035;"Cd Trade Crate 2";0
+81041;"SoCT Expedition Wreck";0
+81058;"CD Electric Weather Effect";0
 81083;"Starsi Blast! Classic";1
 81084;"Starsi Blast! Orange";1
+81090;"EDENCOM Scout Debris";0
+81091;"EDENCOM Expedition Debris";0
 81098;"Space Exploration Expert System";1
 81116;"Naglfar Fleet Issue Arkombine Arisen SKIN";1
 81117;"Moros Navy Issue Arkombine Arisen SKIN";1
@@ -44518,10 +44628,21 @@ typeID;typeName;published
 81120;"Revelation Navy Issue Arkombine Arisen SKIN";1
 81121;"Hauler Operations Expert System";1
 81122;"Enforcer Operations Expert System";1
+81152;"CD Exotic Weather Effect";0
+81153;"CD Gamma Weather Effect";0
+81154;"CD Firestorm Weather Effect";0
+81161;"Awoken Preserver";0
+81162;"Ruptured Drifter Battleship";0
 81163;"Enforcer Career Crate";1
+81164;"CD Drifter Boss Spawner 1";0
+81165;"CD Sleeper Drone Spawner 1";0
 81166;"Soldier of Fortune Career Crate";1
 81167;"Explorer Career Crate";1
 81168;"Industrialist Career Crate";1
+81169;"Damaged Restless Tower";0
+81170;"Battered Drifter Battleship";0
+81174;"CD Sleeper Drone Spawner 2";0
+81175;"CD Drifter Boss Spawner 2";0
 81177;"Partially Corrupted Cryschip";0
 81178;"Partially Corrupted Cryschip";0
 81179;"Partially Corrupted Cryschip";0
@@ -44642,6 +44763,26 @@ typeID;typeName;published
 81294;"Partially Corrupted Cryschip";0
 81295;"Partially Corrupted Cryschip";0
 81296;"Partially Corrupted Cryschip";0
+81299;"Impaired Drifter Battleship";0
+81300;"CD Drifter Boss Spawner 3";0
+81301;"CD Sleeper Drone Spawner 3";0
+81302;"Tyrannos Typhon";0
+81304;"CD Drifter Boss Spawner 4";0
+81305;"CD Sleeper Drone Spawner 4 ";0
+81306;"Impaired Blitzing Kikimora";0
+81324;"Large Rift Open";0
+81327;"Small Rift Open";0
+81335;"Infested Triglavian Battleship Wreck (Leshak)";0
+81336;"Triglavian Battleship Wreck (Leshak)";0
+81338;"Infested TriGlavian Stellar Accelerator Wreck";0
+81339;"TriGlavian Stellar Accelerator Wreck";0
+81340;"Infested Triglavian Fortification Unit 01 Wreck";0
+81341;"Triglavian Fortification Unit 01 Wreck";0
+81342;"Infested TriGlavian Generator 03 Wreck";0
+81343;"TriGlavian Generator 03 Wreck";0
+81344;"Triglavian Fortification Unit 03 Wreck";0
+81345;"Triglavian Fortification Unit 04 Wreck";0
+81346;"Triglavian Generator 02 Wreck";0
 81353;"Malediction Zydrine Burn SKIN";1
 81354;"Pilgrim Zydrine Burn SKIN";1
 81355;"Devoter Zydrine Burn SKIN";1
@@ -44652,11 +44793,21 @@ typeID;typeName;published
 81360;"Broadsword Zydrine Burn SKIN";1
 81361;"Claymore Zydrine Burn SKIN";1
 81362;"Tempest Fleet Issue Zydrine Burn SKIN";1
+81390;"Triglavian Extraction SubNode Wreck";0
+81391;"Triglavian Extraction Node Wreck";0
+81392;"Triglavian Triplex Extraction Cluster Wreck";0
 81599;"Chemal Tech Geneticist";1
 81603;"Mysterious Booster Crate I";1
 81614;"Gas Harvesting Expert System";1
+81617;"EDENCOM Surveyor Stash";0
 81618;"Logistics Pilot Expert System";1
+81624;"EDENCOM Scout Stash";0
+81626;"CD Can 3 ( copy )";0
+81627;"EDENCOM Expedition Stash";0
+81633;"CD Electric Weather Effect 2";0
+81634;"CD Electric Weather Effect 3";0
 81660;"Asset Holding Wrap";0
+81661;"CD Minion Spawner kspace";0
 81925;"Upwell Consortium Prototype Structure";0
 81945;"Drone Graviton Emitter";1
 81946;"Consortium Small Tractor Beam Blueprint";1
@@ -44668,8 +44819,40 @@ typeID;typeName;published
 81952;"Consortium Mobile Tractor Unit Blueprint";1
 81953;"Upwell Consortium Loyalty Token";1
 81954;"Upwell Prototype Development Reward Crate";1
+81969;"Entropic Disintegrator Werpost test";0
+82012;"CD Kikimora Spawner";0
 82040;"Women's Worker's Indigo Pants";1
 82041;"Men's Worker's Indigo Pants";1
+82052;"Capsule Capsuleer Day XXI SKIN";1
+82053;"Cheetah Capsuleer Day XXI SKIN";1
+82054;"Stabber Capsuleer Day XXI SKIN";1
+82055;"Mammoth Capsuleer Day XXI SKIN";1
+82057;"Marshal Capsuleer Day XXI SKIN";1
+82058;"Monitor Capsuleer Day XXI SKIN";1
+82060;"Helios Capsuleer Day XXI SKIN";1
+82061;"Vexor Capsuleer Day XXI SKIN";1
+82062;"Nereus Capsuleer Day XXI SKIN";1
+82063;"Anathema Capsuleer Day XXI SKIN";1
+82064;"Maller Capsuleer Day XXI SKIN";1
+82065;"Sigil Capsuleer Day XXI SKIN";1
+82066;"Buzzard Capsuleer Day XXI SKIN";1
+82067;"Mamba Capsuleer Day XXI SKIN";1
+82068;"Moa Capsuleer Day XXI SKIN";1
+82069;"Badger Capsuleer Day XXI SKIN";1
+82070;"Alligator Capsuleer Day XXI SKIN";1
+82071;"Mekubal Capsuleer Day XXI SKIN";1
+82072;"Khizriel Capsuleer Day XXI SKIN";1
+82073;"Thunderchild Capsuleer Day XXI SKIN";1
+82074;"Skybreaker Capsuleer Day XXI SKIN";1
+82075;"Stormbringer Capsuleer Day XXI SKIN";1
+82076;"Zirnitra Capsuleer Day XXI SKIN";1
+82077;"Rodiva Capsuleer Day XXI SKIN";1
+82078;"Leshak Capsuleer Day XXI SKIN";1
+82079;"Apotheosis Capsuleer Day XXI SKIN";1
+82080;"Metamorphosis Capsuleer Day XXI SKIN";1
+82081;"Sunesis Capsuleer Day XXI SKIN";1
+82082;"Praxis Capsuleer Day XXI SKIN";1
+82083;"Gnosis Capsuleer Day XXI SKIN";1
 82174;"Catalyst Navy Issue Federal Police SKIN";1
 82175;"Cormorant Navy Issue State Police SKIN";1
 82177;"Skybreaker AEGIS Police SKIN";1
@@ -44682,6 +44865,7 @@ typeID;typeName;published
 82185;"Stiletto Republic Police SKIN";1
 82186;"Loki Republic Police SKIN";1
 82187;"Vargur Republic Police SKIN";1
+82432;"Admiral Noir's - Spiced Rum";1
 350916;"Plasma Cannon";0
 351063;"Heavy Machine Gun";0
 351071;"Assault C-I";0
