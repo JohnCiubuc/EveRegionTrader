@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QTabWidget, QVBoxLayout, QTableWidget, QTableWidgetItem, QPlainTextEdit, QPushButton, QHeaderView
+from PyQt5.QtWidgets import QApplication, QWidget, QTabWidget, QVBoxLayout, QTableWidget, QTableWidgetItem, QPlainTextEdit, QPushButton, QHeaderView, QRadioButton, QButtonGroup
 from PyQt5.QtGui import QColor
 import csv
 import requests
@@ -43,6 +43,18 @@ class EveTrader(QWidget):
         tab1.layout = QVBoxLayout()
         tab1.plainTextEdit = QPlainTextEdit()
         tab1.layout.addWidget(tab1.plainTextEdit)
+
+
+        radio_button_1 = QRadioButton('Dodixie')
+        radio_button_2 = QRadioButton('Amarr')
+
+        self.button_group = QButtonGroup()
+        self.button_group.addButton(radio_button_1, 1)
+        self.button_group.addButton(radio_button_2, 2)
+
+        tab1.layout.addWidget(radio_button_1)
+        tab1.layout.addWidget(radio_button_2)
+
         tab1.plainButton = QPushButton()
         tab1.plainButton.setText("Grab Latest Prices")
         tab1.layout.addWidget(tab1.plainButton)
@@ -92,15 +104,21 @@ class EveTrader(QWidget):
             self.csv_reader = list(csv.reader(file, delimiter=';'))
 
     def collect_and_process_data(self):
+        radio_select_id = self.button_group.checkedId()
+
         item_ids, item_names = self.process_multibuy_window()
         tab2 = self.tabs.widget(1)
 
         item_ids_str = ','.join(item_ids)
 
-        url_regions = [f'https://market.fuzzwork.co.uk/aggregates/?region=60011866&types={item_ids_str}',
+        templates = ((f'https://market.fuzzwork.co.uk/aggregates/?region=60011866&types={item_ids_str}', 'Dodixie'),
+                     (f'https://market.fuzzwork.co.uk/aggregates/?region=30002187&types={item_ids_str}', 'Amarr')
+        )
+
+        url_regions = [templates[radio_select_id-1][0],
                        f'https://market.fuzzwork.co.uk/aggregates/?region=30000142&types={item_ids_str}']
 
-        regions_name = ['Dodixie', 'Jita']
+        regions_name = [templates[radio_select_id-1][1], 'Jita']
 
         # Clear existing rows in the table
         tab2.table.setRowCount(0)
@@ -136,7 +154,8 @@ class EveTrader(QWidget):
 
                 diff = abs(root_value - comp_value)
                 calc_tax = 0.0173+0.0448
-                if root_value > comp_value:
+
+                if root_value > comp_value and comp_value > 0:
                     roi = ((root_value * (1 - calc_tax)) - comp_value) / comp_value
                 else:
                     roi = ((comp_value * (1 - calc_tax)) - root_value) / root_value
@@ -146,6 +165,9 @@ class EveTrader(QWidget):
                     roi_color = 1
                 elif roi < 0:
                     roi_color = 0
+
+                if diff < 500000 and region_i != 0:
+                    continue
 
                 roi_color = interpolate_color(roi_color)
                 item = QTableWidgetItem(item_name)
